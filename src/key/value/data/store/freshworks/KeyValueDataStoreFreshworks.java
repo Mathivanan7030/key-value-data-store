@@ -1,25 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package key.value.data.store.freshworks;
 
-/**
- *
- * @author Mathivanan
- */
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
-
-/**
- *
- * @author Mathivanan
- */
 import org.json.simple.JSONObject;
 
 import java.io.*;
@@ -30,15 +12,13 @@ import java.util.Map;
 import java.util.Scanner;
 public class KeyValueDataStoreFreshworks {
 
-    /**
-     * @param args the command line arguments
-     */
+    
     static Scanner sc = new Scanner(System.in);
     private static Map<String, Object> map = new HashMap<>();
     private static int count = 0;
     
     public static void main(String[] args) throws IOException {
-        // TODO code application logic here
+     
          String dir = fileCreation();
 
         while (true) {
